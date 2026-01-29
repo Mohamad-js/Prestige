@@ -27,7 +27,7 @@ export function MeshGradientBg({
         speed={speed}
         style={{ width: "100%", height: "100%" }}
         // Performance tuning (optional)
-        minPixelRatio={window?.devicePixelRatio > 1.5 ? 1.5 : 1}
+        minPixelRatio={1.5}
         maxPixelCount={1800000}
       />
     </div>

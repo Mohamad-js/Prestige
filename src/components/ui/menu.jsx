@@ -10,7 +10,7 @@ function Menu(){
 
 
    return(
-      <div className="absolute top-0 right-0 w-fit h-fit">
+      <div className="absolute top-0 right-0 w-fit h-fit z-1">
          <label onChange={() => setOpenMenu(!openMenu)}>
             <div
                className="absolute right-2 top-3 py-2 w-9 h-10 cursor-pointer flex flex-col items-center justify-center z-1"

@@ -9,13 +9,13 @@ export function MeshGradientBg({
   swirl = 1,
   grainMixer = 0,
   grainOverlay = 0,
-  speed = 2,
+  speed = 0.5,
   scale = 0.8,
   ...rest
 }) {
   return (
     <div
-      className={`absolute inset-0 -z-10 ${className}`}
+      className={`fixed inset-0 -z-10 ${className}`}
       {...rest}
     >
       <MeshGradient

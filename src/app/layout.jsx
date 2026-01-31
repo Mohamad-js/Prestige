@@ -35,12 +35,10 @@ const vazir = localFont({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" dir="rtl" className={`${vazir.variable}`}>
+    <html lang="en" className={`${vazir.variable}`}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-         <Navbar />
-         <Menu />
          {children}
       </body>
     </html>
